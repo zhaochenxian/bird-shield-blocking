@@ -1,11 +1,1 @@
-0\\foc<=50&txt=/^\s*$/
-0\\foc<0&cd>=1y&frc<=10&!(lang*=zh)
-(foc<10&cd<1y)&txt*=日給30&txt*=円
-(foc<20&cd<2y)&@*=手机口大赛
-(lang=/en|und/)&foc<5&frc<50&info=/^\s*$/&txt=/(Nice|Ok|yes|Good|Niubility)[\.!]*\s*$/i
-mark1\\rpl&(frc<2&foc<2&cd<1m&(info=/^\s*$/|(sn=~@|(sn~@&sn=/\d+$/))))
-100\\rpl&(frc<1&foc<1&cd<1m&info=/^\s*$/&(sn=~@|(sn~@&sn=/\d+$/)))
-mark1\\rpl&frc<10&foc<1&sn~@&info=/^\s*$/&txt=/^(undefined|\s*|(\s*(@\w+|https?:\/\/t\.co\/\w+)\s*)*)$/&ptc=1
-mark1\\rpl&foc<1&frc<1
-mark1\\rpl&foc<30&cd<1y&@=/^\w$/
-frc<50&foc<10&(info*=各种证件|txt=/身份.*学位.*电工/&txt*=证)
+(长期搭子|温柔主|文爱|绿帽|约炮|门槛)
