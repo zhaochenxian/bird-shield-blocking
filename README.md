@@ -10,7 +10,7 @@
 - [English](https://free-spirit-dev.github.io/public/doc/el-en.html)
 
 ### 规则工作流
-- [规则发布流程](规则发布流程.md)
+- 直接在 `main` 分支修改与提交规则
 
 ### 安装
 - [Chrome市场](https://chromewebstore.google.com/detail/%E6%8E%A8%E7%89%B9%E9%B8%9F%E7%9B%BE/igapbfjkbkmjcmgjmgfcegamhkfppdmg?hl=zh-CN)  
