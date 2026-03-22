@@ -1,6 +1,0 @@
-(foc<20&cd<6m)&(txt*=兼职|txt*=返利|txt*=带赚)
-(txt*=私信我|txt*=加我)&(@*=tg|@*=telegram|@*=电报)
-url=/t\.me\/|url=/discord\.gg\/
-(foc<50&cd<2y)&txt=/找个(长期)?搭子[。\.·\s]*$/
-(foc<80&cd<2y)&txt=/找个(温柔)?主[。\.·\s]*$/
-(foc<100&frc<100&cd<2y)&txt=/找个(长期)?搭子|找个(温柔)?主/
