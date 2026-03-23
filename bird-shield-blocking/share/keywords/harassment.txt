@@ -1,0 +1,1 @@
+filter340\\txt=/不\s*用\s*翻\s*了|原\s*视\s*频|完\s*整\s*(的)?\s*(是|找\s*到\s*了)|整\s*好\s*了\s*不\s*用\s*谢|炸\s*裂(\s*的\s*很)?|后\s*续\s*完\s*整\s*的\s*找\s*到\s*了|同\s*学\s*刚\s*发\s*给\s*我\s*们\s*看|发\s*给\s*我\s*一\s*个\s*我\s*也\s*想\s*看/&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/
