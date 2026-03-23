@@ -1,1 +1,1 @@
-mark320\\(foc<10&(cd<3m|(!blue&frc<30)))&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/
+mark320\\(foc<10&cd<6m&(!blue&frc<30))&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/
