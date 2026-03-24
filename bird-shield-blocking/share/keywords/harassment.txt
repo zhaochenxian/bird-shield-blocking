@@ -1,10 +1,10 @@
-skip 2000 \\ blue & fi
-skip 1800 \\ blue & fb
-block 900 \\ (foc<10&cd<6m&!blue)&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/
-block 800 \\ (foc<50|cd<1y)&(!blue)&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/&txt=/私\s*信|添\s*加|关\s*注\s*领取|免\s*费\s*领/
-filter 620 \\ (foc<10|cd<6m|(!blue&frc<30))&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/
-filter 550 \\ (foc<50&cd<1y&!blue)&txt=/私\s*信\s*我|加\s*我|私\s*聊.*免\s*费|关\s*注.*领\s*取/
-filter 480 \\ (foc<20&frc>500&!blue)&txt=/互\s*关|关\s*注\s*回\s*关|关\s*注\s*我/
-mark 320 \\ (foc<10|cd<6m|(!blue&frc<30))&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/
-mark 200 \\ (foc<100&!blue)&txt=/私\s*信\s*我|dd\s*我|加\s*微|加\s*V/
-mark 150 \\ (cd<3m&!blue)&txt=/关\s*注\s*领取|免\s*费\s*领|点\s*赞\s*抽\s*奖/
+skip2000\\blue&fi
+skip1800\\blue&fb
+block900\\(foc<10&cd<6m&!blue)&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/
+block800\\(foc<50|cd<1y)&(!blue)&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/&txt=/私\s*信|添\s*加|关\s*注\s*领取|免\s*费\s*领/
+filter620\\(foc<10|cd<6m|(!blue&frc<30))&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/
+filter550\\(foc<50&cd<1y&!blue)&txt=/私\s*信\s*我|加\s*我|私\s*聊.*免\s*费|关\s*注.*领\s*取/
+filter480\\(foc<20&frc>500&!blue)&txt=/互\s*关|关\s*注\s*回\s*关|关\s*注\s*我/
+mark320\\(foc<10|cd<6m|(!blue&frc<30))&url=/pan\.baidu\.com|pan\.quark\.cn|drive\.uc\.cn/
+mark200\\(foc<100&!blue)&txt=/私\s*信\s*我|dd\s*我|加\s*微|加\s*V/
+mark150\\(cd<3m&!blue)&txt=/关\s*注\s*领取|免\s*费\s*领|点\s*赞\s*抽\s*奖/

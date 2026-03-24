@@ -1,15 +1,15 @@
-skip 2000 \\ blue & fi
-skip 1800 \\ blue & fb
-block 1500 \\ (foc<10&cd<6m&(!blue&frc<30))&info=/已\s*入.{0,3}平\s*台|只在平台上约|福利\s*姬|绿\s*泡\s*泡/
-block 1200 \\ (foc<10&cd<6m&(!blue&frc<30))&txt=/已\s*入.{0,3}平\s*台|福利\s*姬|同城\s*可\s*线下|寻欢\s*必备|远程\s*指挥|控制\s*玩具|绿\s*泡\s*泡/
-block 1100 \\ (cd<2y|foc<10)&@*=六合彩&(@*=香港|@*=澳门)
-block 950 \\ foc<50&@*=跑分-
-block 900 \\ (foc<50&!blue)&url=/xn88\.(vip|com|org)/
-block 800 \\ (foc<50&cd<1y)&txt=/跑\s*分|平\s*台\s*返\s*佣|招\s*募\s*代\s*理|拉\s*人\s*头|上\s*分\s*渠\s*道/
-block 750 \\ @=/[领送]/&@=/[美现]金/
-filter 650 \\ (foc<100|cd<6m)&txt=/私\s*信\s*有\s*惊\s*喜|添\s*加.*获\s*利|高\s*额\s*返\s*佣|日\s*赚\s*(千|百|万)/
-filter 600 \\ txt=/損失全額付款註冊專屬邀請碼|全亚洲最信誉的平台/
-filter 550 \\ url=/xn88\.(vip|com|org)/
-mark 350 \\ (foc<100&!blue)&txt=/加\s*我|私\s*聊|有\s*意\s*者/&txt=/赚\s*钱|获\s*利|佣\s*金|收\s*益/
-mark 250 \\ (foc<50&cd<1y)&@*=赚钱
-mark 200 \\ (cd<3m&!blue)&txt=/平\s*台|代\s*理|返\s*现/
+skip2000\\blue&fi
+skip1800\\blue&fb
+block1500\\(foc<10&cd<6m&(!blue&frc<30))&info=/已\s*入.{0,3}平\s*台|只在平台上约|福利\s*姬|绿\s*泡\s*泡/
+block1200\\(foc<10&cd<6m&(!blue&frc<30))&txt=/已\s*入.{0,3}平\s*台|福利\s*姬|同城\s*可\s*线下|寻欢\s*必备|远程\s*指挥|控制\s*玩具|绿\s*泡\s*泡/
+block1100\\(cd<2y|foc<10)&@*=六合彩&(@*=香港|@*=澳门)
+block950\\foc<50&@*=跑分-
+block900\\(foc<50&!blue)&url=/xn88\.(vip|com|org)/
+block800\\(foc<50&cd<1y)&txt=/跑\s*分|平\s*台\s*返\s*佣|招\s*募\s*代\s*理|拉\s*人\s*头|上\s*分\s*渠\s*道/
+block750\\@=/[领送]/&@=/[美现]金/
+filter650\\(foc<100|cd<6m)&txt=/私\s*信\s*有\s*惊\s*喜|添\s*加.*获\s*利|高\s*额\s*返\s*佣|日\s*赚\s*(千|百|万)/
+filter600\\txt=/損失全額付款註冊專屬邀請碼|全亚洲最信誉的平台/
+filter550\\url=/xn88\.(vip|com|org)/
+mark350\\(foc<100&!blue)&txt=/加\s*我|私\s*聊|有\s*意\s*者/&txt=/赚\s*钱|获\s*利|佣\s*金|收\s*益/
+mark250\\(foc<50&cd<1y)&@*=赚钱
+mark200\\(cd<3m&!blue)&txt=/平\s*台|代\s*理|返\s*现/
