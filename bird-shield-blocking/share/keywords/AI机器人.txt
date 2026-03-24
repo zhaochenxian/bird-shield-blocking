@@ -1,8 +1,5 @@
 skip2000\\blue&fi
 skip1800\\blue&fb
-block1650\\(foc<10&cd<6m&(!blue&frc<30))&info=/约\s*p?\s*平\s*台|下\s*载\s*直\s*接\s*搜/
-block1600\\(foc<10&cd<6m&(!blue&frc<30))&info=/已\s*入\s*驻?.*平\s*台|只在平台上约|福利\s*姬|绿\s*泡\s*泡/
-block1400\\(foc<10&cd<6m&(!blue&frc<30))&any=/已\s*入\s*驻?.*平\s*台|福利\s*姬|同城\s*可\s*线下|寻欢\s*必备|远程\s*指挥|控制\s*玩具|绿\s*泡\s*泡/
 block1300\\(foc<10&cd<6m&(!blue&frc<30))&@=/[处楚雏]\s*男\s*(免\s*费|无\s*偿)|同\s*城\s*(纯\s*)?[曰日约免]\s*费?\s*线\s*下|男\s*大\s*无\s*偿\s*约/
 block1200\\(foc<10&cd<6m&(!blue&frc<30))&@=/免\s*费\s*破\s*处|无\s*偿\s*破\s*处|处\s*无\s*偿|处\s*免\s*费|娇\s*欲\s*仙\s*女|(线\s*下\s*)?[dDＤｄ]{2}/
 block950\\(foc<10&cd<6m&(!blue&frc<30))&txt=/我\s*是\s*真\s*人\s*有\s*线\s*下\s*吗|小\s*狗\s*缺\s*(主\s*人|温\s*暖)|快\s*领\s*我\s*回\s*家|男\s*大\s*弟\s*弟\s*来|线\s*下\s*[，,、]?\s*[楚处雏]\s*男/
@@ -16,3 +13,6 @@ filter450\\(foc<10&cd<6m&(!blue&frc<30))&txt=/线\s*下|有\s*没\s*有|主\s*�
 mark300\\(foc<50&cd<1y&!blue)&txt=/找\s*搭\s*子|找\s*主\s*人|蹲\s*弟\s*弟|蹲\s*哥\s*哥/
 mark200\\(foc<100|cd<6m)&@=/搭\s*子|弟\s*弟|哥\s*哥/&txt=/私\s*信|dd|加\s*我/
 mark150\\(foc<20&!blue)&txt=/真\s*人|线\s*下|搭\s*子/
+block1650\\(foc<10&cd<6m&(!blue&frc<30))&info=/约\s*p?\s*平\s*台|下\s*载\s*直\s*接\s*搜/
+block1600\\(foc<10&cd<6m&(!blue&frc<30))&info=/已\s*入\s*驻?.*平\s*台|只在平台上约|福利\s*姬|绿\s*泡\s*泡/
+block1400\\(foc<10&cd<6m&(!blue&frc<30))&any=/已\s*入\s*驻?.*平\s*台|福利\s*姬|同城\s*可\s*线下|寻欢\s*必备|远程\s*指挥|控制\s*玩具|绿\s*泡\s*泡/

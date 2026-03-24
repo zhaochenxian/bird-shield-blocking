@@ -1,7 +1,6 @@
 skip2000\\blue&fi
 skip1800\\blue&fb
 block1500\\(foc<10&cd<6m&(!blue&frc<30))&info=/已\s*入.{0,3}平\s*台|只在平台上约|福利\s*姬|绿\s*泡\s*泡/
-block1200\\(foc<10&cd<6m&(!blue&frc<30))&txt=/已\s*入\s*驻?.{0,3}平\s*台|福利\s*姬|同城\s*可\s*线下|寻欢\s*必备|远程\s*指挥|控制\s*玩具|绿\s*泡\s*泡/
 block1100\\(cd<2y|foc<10)&@*=六合彩&(@*=香港|@*=澳门)
 block950\\foc<50&@*=跑分-
 block900\\(foc<50&!blue)&url=/xn88\.(vip|com|org)/
@@ -13,3 +12,4 @@ filter550\\url=/xn88\.(vip|com|org)/
 mark350\\(foc<100&!blue)&txt=/加\s*我|私\s*聊|有\s*意\s*者/&txt=/赚\s*钱|获\s*利|佣\s*金|收\s*益/
 mark250\\(foc<50&cd<1y)&@*=赚钱
 mark200\\(cd<3m&!blue)&txt=/平\s*台|代\s*理|返\s*现/
+block1200\\(foc<10&cd<6m&(!blue&frc<30))&txt=/已\s*入\s*驻?.{0,3}平\s*台|福利\s*姬|同城\s*可\s*线下|寻欢\s*必备|远程\s*指挥|控制\s*玩具|绿\s*泡\s*泡/
