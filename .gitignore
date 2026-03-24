@@ -1,28 +1,37 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# ======================================================
+# bird-shield-blocking · .gitignore
+# ======================================================
 
-node_modules
+# WorkBuddy 本地工作目录（AI 记忆、缓存，不上传）
+.workbuddy/
+
+# macOS 系统文件
 .DS_Store
-dist
-dist-ssr
-coverage
-*.local
 
-/cypress/videos/
-/cypress/screenshots/
+# Windows 系统文件
+Thumbs.db
+desktop.ini
 
-# Editor directories and files
+# 编辑器 / IDE
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 *.suo
-*.ntvs*
-*.njsproj
 *.sln
 *.sw?
+
+# 日志
+*.log
+logs/
+
+# Node（如将来引入构建工具）
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.local
+
+# 临时下载文件（之前误入版本库的插件文档）
+*.html
+*_files/
+*.下载
